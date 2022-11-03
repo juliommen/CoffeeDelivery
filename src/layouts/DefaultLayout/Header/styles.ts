@@ -18,9 +18,19 @@ export const HeaderContainer = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    pre {
+      display: flex;
+      align-items: center;
+    }
+
     img {
       height: 2.5rem;
       width: auto;
+    }
+
+    .sun {
+      height: 4rem;
+      margin-right: -1.75rem;
     }
 
     div {
